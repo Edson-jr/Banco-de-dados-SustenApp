@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "juninho99",
+    "database": "Teste",
+    "host": "localhost",
+    "dialect": "mssql"
+  },
+  "test": {
+    "username": "sa",
+    "password": "juninho99",
+    "database": "Teste",
+    "host": "localhost",
+    "dialect": "mssql"
+  },
+  "production": {
+    "username": "sa",
+    "password": "juninho99",
+    "database": "Teste",
+    "host": "localhost",
+    "dialect": "mssql"
+  }
+}
