@@ -1,3 +1,4 @@
+const Usuario = require('../models').Usuario
 
 exports.listAll = (req, res) => {
 	let usuarios = [
@@ -14,9 +15,12 @@ exports.listAll = (req, res) => {
 }
 
 exports.createOne = (req, res) => {
-	let response = {
-		message: 'Usuarios criado com sucesso',
-		data: req.body
-	}
-	res.send (response)
+	console.log(Usuario)
+	const {nome, email} = req.body
+	Usuario.create({nome, email}).then(usuario => {
+		res.send (response)	
+	}).catch(error => {
+		res.send(error)
+	})
+
 }

@@ -2,21 +2,21 @@
   "development": {
     "username": "sa",
     "password": "juninho99",
-    "database": "Teste",
+    "database": "SustenApp",
     "host": "localhost",
     "dialect": "mssql"
   },
   "test": {
     "username": "sa",
     "password": "juninho99",
-    "database": "Teste",
+    "database": "SustenApp",
     "host": "localhost",
     "dialect": "mssql"
   },
   "production": {
     "username": "sa",
     "password": "juninho99",
-    "database": "Teste",
+    "database": "SustenApp",
     "host": "localhost",
     "dialect": "mssql"
   }
