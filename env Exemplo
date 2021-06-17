@@ -1,0 +1,3 @@
+MONGOCONNECTION_STRING='mongodb+srv://mynotes:0101bravozulut@cluster0.ah9xq.mongodb.net/sustent?retryWrites=true&w=majority'
+PORT=4000
+SECRET_KEY=ya0gsqhy4wzvuvb4

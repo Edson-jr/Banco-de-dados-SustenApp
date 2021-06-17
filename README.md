@@ -1,9 +1,4 @@
-"start": " nodemon server.js",
-"dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "sequelize": "^6.6.2",
-    "smn-sql": "^1.0.1",
-    "tedious": "^11.0.8"
-  },
-  npm install
+npm install -g nodemon [baixa o nodemon globalmente]
+yarn [instala as dependencias]
+transformar o enveExemplo em um .env
+nodemon [roda a api]
