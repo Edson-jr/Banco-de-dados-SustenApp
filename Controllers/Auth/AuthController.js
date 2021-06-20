@@ -167,10 +167,11 @@ exports.ResetPassword = function (req, res) {
 };
 
 exports.userResponse = function (user) {
+
   let userReturn = {
     nickname: user.nickname,
     email: user.email,
-    cpf: user.cpf,
+    city: user.city,
   };
 
   return userReturn;
